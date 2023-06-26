@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <verifyCell>
+        <searchColumn>1</searchColumn>
+        <searchText>Alfreds Futterkiste</searchText>
+        <returnColumnText>3</returnColumnText>
+        <expectedText>Germany</expectedText>
+    </verifyCell>
+    <verifyCell>
+        <searchColumn>1</searchColumn>
+        <searchText>Alfreds Futterkiste</searchText>
+        <returnColumnText>2</returnColumnText>
+        <expectedText>Germany</expectedText>
+    </verifyCell>
+</config>
