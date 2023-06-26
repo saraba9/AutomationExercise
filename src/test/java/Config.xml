@@ -12,4 +12,16 @@
         <returnColumnText>2</returnColumnText>
         <expectedText>Germany</expectedText>
     </verifyCell>
+    <verifyCell>
+        <searchColumn>2</searchColumn>
+        <searchText>Yoshi Tannamuri</searchText>
+        <returnColumnText>3</returnColumnText>
+        <expectedText>Canada</expectedText>
+    </verifyCell>
+    <verifyCell>
+        <searchColumn>3</searchColumn>
+        <searchText>Italy</searchText>
+        <returnColumnText>2</returnColumnText>
+        <expectedText>Giovanni Rovelli</expectedText>
+    </verifyCell>
 </config>

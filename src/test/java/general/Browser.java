@@ -11,7 +11,7 @@ public class Browser {
     public static WebDriver driver() {
 
         if (driver == null) {
-            System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", Constants.CHROME_DRIVER);
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--remote-allow-origins=*");
             driver = new ChromeDriver(options);

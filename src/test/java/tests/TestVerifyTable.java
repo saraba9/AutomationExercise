@@ -51,7 +51,7 @@ public class TestVerifyTable {
         HtmlTablesPage htmlTablesPage= new HtmlTablesPage();
         WebElement table= htmlTablesPage.getCustomerTable();
         boolean result = htmlTablesPage.verifyTableCellText(table,searchColumn,searchText,returnColumnText,expectedText);
-        Assert.assertTrue("Test passed", result);
+        Assert.assertTrue("Test failed", result);
     }
 
     @AfterClass
